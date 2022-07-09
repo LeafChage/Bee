@@ -1,3 +1,8 @@
+extern crate image;
+extern crate qrcode;
+
+mod bee;
+
 fn main() {
-    println!("hello world");
+    bee::qr::generate("hi");
 }
